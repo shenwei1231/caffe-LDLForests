@@ -15,6 +15,7 @@ To run the demo, do the following steps:
 
 #### Transplant:
 If you have different Caffe version than this repo and would like to try out the proposed LDLFs layers, you can transplant the following code to your repo.
+
 include/caffe/util/sampling.hpp
 include/caffe/util/neural_decision_util_functions.hpp
 src/caffe/util/sampling.cpp
@@ -40,7 +41,7 @@ Please cite the following paper if it helps your research:
     }
 
 #### Acknowledgment: 
-This code is based on Caffe with new implemented pooling layers.
+This code is based on Caffe.
 
     @article{jia2014caffe,
       Author = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
