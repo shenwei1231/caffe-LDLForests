@@ -1,4 +1,4 @@
-<img align="center" src="http://wei-shen.weebly.com/uploads/2/3/8/2/23825939/illustration_orig.png" width="600">
+<img align="center" src="http://wei-shen.weebly.com/uploads/2/3/8/2/23825939/illustration_orig.png" width="900">
 
 #### Label Distribution Learning Forests
 
