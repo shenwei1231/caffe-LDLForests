@@ -1,4 +1,4 @@
-<img align="center" src="http://wei-shen.weebly.com/uploads/2/3/8/2/23825939/illustration_orig.png" width="300">
+<img align="center" src="http://wei-shen.weebly.com/uploads/2/3/8/2/23825939/illustration_orig.png" width="600">
 
 #### Label Distribution Learning Forests
 
@@ -16,16 +16,19 @@ To run the demo, do the following steps:
 #### Transplant:
 If you have different Caffe version than this repo and would like to try out the proposed LDLFs layers, you can transplant the following code to your repo.
 
+(util) 
 include/caffe/util/sampling.hpp
-include/caffe/util/neural_decision_util_functions.hpp
 src/caffe/util/sampling.cpp
+include/caffe/util/neural_decision_util_functions.hpp
 src/caffe/util/neural_decision_util_functions.cpp
 
-include/caffe/layers/neural_decision_distr_learning_forest_loss_layer.hpp (training)
+(training) 
+include/caffe/layers/neural_decision_distr_learning_forest_loss_layer.hpp 
 src/caffe/layers/neural_decision_distr_learning_forest_loss_layer.cpp
 src/caffe/layers/neural_decision_distr_learning_forest_loss_layer.cu
 
-include/caffe/layers/neural_decision_forest_layer.hpp (testing)
+(testing) 
+include/caffe/layers/neural_decision_forest_layer.hpp 
 src/caffe/layers/neural_decision_forest_layer.cpp
 src/caffe/layers/neural_decision_forest_layer.cu
 
@@ -38,16 +41,6 @@ Please cite the following paper if it helps your research:
       booktitle = {Proc. NIPS},
       title = {Label Distribution Learning Forests},
       year = {2017}
-    }
-
-#### Acknowledgment: 
-This code is based on Caffe.
-
-    @article{jia2014caffe,
-      Author = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
-      Journal = {arXiv preprint arXiv:1408.5093},
-      Title = {Caffe: Convolutional Architecture for Fast Feature Embedding},
-      Year  = {2014},
     }
 
 If you have any issues using the code please email us at shenwei1231@gmail.com, zhaok1206@gmail.com
