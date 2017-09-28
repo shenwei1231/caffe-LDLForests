@@ -17,20 +17,20 @@ To run the demo, do the following steps:
 If you have different Caffe version than this repo and would like to try out the proposed LDLFs layers, you can transplant the following code to your repo.
 
 (util) 
-include/caffe/util/sampling.hpp
-src/caffe/util/sampling.cpp
-include/caffe/util/neural_decision_util_functions.hpp
-src/caffe/util/neural_decision_util_functions.cpp
+ - include/caffe/util/sampling.hpp
+ - src/caffe/util/sampling.cpp
+ - include/caffe/util/neural_decision_util_functions.hpp
+ - src/caffe/util/neural_decision_util_functions.cpp
 
 (training) 
-include/caffe/layers/neural_decision_distr_learning_forest_loss_layer.hpp 
-src/caffe/layers/neural_decision_distr_learning_forest_loss_layer.cpp
-src/caffe/layers/neural_decision_distr_learning_forest_loss_layer.cu
+ - include/caffe/layers/neural_decision_distr_learning_forest_loss_layer.hpp 
+ - src/caffe/layers/neural_decision_distr_learning_forest_loss_layer.cpp
+ - src/caffe/layers/neural_decision_distr_learning_forest_loss_layer.cu
 
 (testing) 
-include/caffe/layers/neural_decision_forest_layer.hpp 
-src/caffe/layers/neural_decision_forest_layer.cpp
-src/caffe/layers/neural_decision_forest_layer.cu
+ - include/caffe/layers/neural_decision_forest_layer.hpp 
+ - src/caffe/layers/neural_decision_forest_layer.cpp
+ - src/caffe/layers/neural_decision_forest_layer.cu
 
 Tips: Make sure that the names of the NeuralDecisionDLForestWithLoss layer and the NeuralDecisionForest layer in the train_net and test_net prototxts are the same, so that the learned leaf nodes can be loaded in the testing stage.
 
