@@ -1,0 +1,17 @@
+type: "SGD"
+base_lr: 1e-1
+debug_info: false
+display: 5
+lr_policy: "step"
+stepsize: 10000
+gamma: 0.5
+max_iter: 30000
+momentum: 0.9
+snapshot: 5000
+snapshot_prefix: "examples/morph/Alex_net/age_net"
+train_net: "examples/morph/Alex_net/train_net.pt"
+test_net: "examples/morph/Alex_net/test_net.pt"
+test_interval: 200
+test_iter: 117
+test_initialization: false
+
