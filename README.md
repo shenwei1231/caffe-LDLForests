@@ -20,7 +20,7 @@ If you have different Caffe version than this repo and would like to try out the
  - include/caffe/util/sampling.hpp
  - src/caffe/util/sampling.cpp
  - include/caffe/util/neural_decision_util_functions.hpp
- - src/caffe/util/neural_decision_util_functions.cpp
+ - src/caffe/util/neural_decision_util_functions.cu
 
 (training) 
  - include/caffe/layers/neural_decision_distr_learning_forest_loss_layer.hpp 
