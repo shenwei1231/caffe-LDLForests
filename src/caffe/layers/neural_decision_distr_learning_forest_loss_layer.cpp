@@ -534,7 +534,7 @@ void NeuralDecisionDLForestWithLossLayer<Dtype>::RecordClassLabelDistr()
 
 }
 #ifdef CPU_ONLY
-STUB_GPU_BACKWARD(NeuralDecisionDLForestWithLossLayer, Backward);
+STUB_GPU(NeuralDecisionDLForestWithLossLayer);
 #endif
 
 INSTANTIATE_CLASS(NeuralDecisionDLForestWithLossLayer);
